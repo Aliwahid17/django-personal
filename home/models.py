@@ -1,6 +1,4 @@
-from operator import mod
-from pyexpat import model
-from sqlite3 import Timestamp
+import imp
 from django.db import models
 
 # Create your models here.
@@ -16,4 +14,3 @@ class Contact(models.Model):
 
     def __str__(self):
         return "Message from " + self.name + ' - ' + self.email
-    
