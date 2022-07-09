@@ -2,6 +2,7 @@ from django.shortcuts import render, HttpResponse, redirect
 from blog.models import Post, BlogComment
 from django.contrib import messages
 from django.contrib.auth.models import User
+# from templatetags import extras
 # from blog.templatetags import extras
 
 # Create your views here.
